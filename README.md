@@ -1,0 +1,2 @@
+# diHMM
+ Improved diHMM package
