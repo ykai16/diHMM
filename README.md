@@ -6,7 +6,10 @@ diHMM is a novel chromatin segmentation for annotating chromatin states at two l
 We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the [Roadmap and ENCODE consortia](http://www.roadmapepigenomics.org). Detailed information of the information on the 127 epigenomes can be found at [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
 
 ## Accessing the multi-scale chromatin state maps in the 127 epigenomes
-We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level. These maps can be freely downloaded from [here](https://www.dropbox.com/sh/85nxvu1hiwhwm9r/AAB0pQFvwD1KRqpwOOHf6A_Xa?dl=0).
+We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level, which can be freely downloaded from the table below.
+After unzipping, those maps can be directly uploaded to genome browsers (e.g IGV) for visualization.
+
+To see full meta information about each reference epigenome, please visit [here](https://docs.google.com/spreadsheets/d/1yikGx4MsO9Ei36b64yOy9Vb6oPC5IBGlFbYEt-N6gOM/edit#gid=15).
 
 | Epigenome   ID (EID) | Nucleosome                                                                                                  | Domain                                                                                                  |        GROUP     |        Standardized Epigenome name                               |        ANATOMY     |
 |----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------|--------------------|
@@ -138,16 +141,7 @@ We generated the chromatin state maps at the nucleosome (200bp resolution) and d
 | E128                 | [download](https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/E128_nucleosome.bed.gz) | [download](https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/E128_domain.bed.gz) | ENCODE2012       | NHLF   Lung Fibroblast Primary Cells                             | LUNG               |
 | E129                 | [download](https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/E129_nucleosome.bed.gz) | [download](https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/E129_domain.bed.gz) | ENCODE2012       | Osteoblast   Primary Cells                                       | BONE               |
 
-
-Also, they can be accessed in the following way in terminal:
-```
-# specify the ID of the epigenome that you're interested in
-EID=E001
-# specify which level of state map you'd like to download. Could be "nucleosome" or "domain"
-Type=domain
-wget https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/$EID_$Type.bed.gz
-```
-The information on epigenome ID can be found [here](https://docs.google.com/spreadsheets/d/1yikGx4MsO9Ei36b64yOy9Vb6oPC5IBGlFbYEt-N6gOM/edit#gid=15).
+These maps can be freely downloaded from [here](https://www.dropbox.com/sh/85nxvu1hiwhwm9r/AAB0pQFvwD1KRqpwOOHf6A_Xa?dl=0).
 
 ## Installation
 Go into the build dir and run
