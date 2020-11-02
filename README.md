@@ -11,7 +11,7 @@ We generated the chromatin state maps at the nucleosome (200bp resolution) and d
 | Epigenome   ID (EID) | Nucleosome | Domain   |        GROUP     |        Standardized Epigenome name                               |        ANATOMY     |
 |----------------------|------------|----------|------------------|------------------------------------------------------------------|--------------------|
 | E017                 | [download](https://www.dropbox.com/s/uwnio5ibi0639dn/E017_nucleosome.bed.gz?dl=0)   | [download](https://www.dropbox.com/s/pzmr9qiij7rkytl/E017_domain.bed.gz?dl=0) | IMR90            | IMR90   fetal lung fibroblasts Cell Line                         | LUNG               |
-| E002                 | download   | download | ESC              | ES-WA7   Cells                                                   | ESC                |
+| E002                 | [download](https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/E002_nucleosome.bed.gz)   | download | ESC              | ES-WA7   Cells                                                   | ESC                |
 | E008                 | download   | download | ESC              | H9   Cells                                                       | ESC                |
 | E001                 | download   | download | ESC              | ES-I3   Cells                                                    | ESC                |
 | E015                 | download   | download | ESC              | HUES6   Cells                                                    | ESC                |
