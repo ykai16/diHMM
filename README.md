@@ -6,7 +6,7 @@ diHMM is a novel chromatin segmentation for annotating chromatin states at two l
 We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the [Roadmap and ENCODE consortia](http://www.roadmapepigenomics.org). Detailed information of the information on the 127 epigenomes can be found at [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
 
 ## Accessing the multi-scale chromatin state maps in the 127 epigenomes
-We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level. These maps are housed at *https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/*, and they can be download in the following way in terminal:
+We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level. These maps can be freely downloaded from [here](https://www.dropbox.com/sh/85nxvu1hiwhwm9r/AAB0pQFvwD1KRqpwOOHf6A_Xa?dl=0). Also, they can be accessed in the following way in terminal:
 ```
 # specify the ID of the epigenome that you're interested in
 EID=E001
