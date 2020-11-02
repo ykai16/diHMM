@@ -14,7 +14,7 @@ EID=E001
 Type=domain
 wget https://genomebrowser-uploads.hms.harvard.edu/data/yk233/diHMM/annotated/$EID_$Type.bed.gz
 ```
-The information on epigenome ID can be found [here](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
+The information on epigenome ID can be found [here](https://docs.google.com/spreadsheets/d/1yikGx4MsO9Ei36b64yOy9Vb6oPC5IBGlFbYEt-N6gOM/edit#gid=15).
 
 ## Installation
 Go into the build dir and run
