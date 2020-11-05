@@ -3,14 +3,14 @@ Here presents an improved implementation of diHMM, contributed by Stephanos Tsou
 
 diHMM is a novel chromatin segmentation for annotating chromatin states at two length scales. It was originally developed and described in the publication *Multi-scale chromatin state annotation using a hierarchical hidden Markov model* ([Marco et.al 2017](https://www.nature.com/articles/ncomms15011)). Detailed information of the project can be found at [this page](https://github.com/gcyuan/diHMM).
 
-We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the [Roadmap and ENCODE consortia](http://www.roadmapepigenomics.org). Detailed information of the information on the 127 epigenomes can be found at [Roadmap Epigenomics Consortium and Kundaje et.al](https://www.nature.com/articles/nature14248) or [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
+We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the Roadmap and ENCODE consortia. Detailed information of the information on the 127 epigenomes can be found at [Roadmap Epigenomics Consortium and Kundaje et.al](https://www.nature.com/articles/nature14248) or [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
 
 ## A first impression of diHMM states
+We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level.
 ![example](images/genome-browser_final_for_github.png)
 
 ## Accessing the multi-scale chromatin state maps in the 127 epigenomes
-We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level, which can be freely downloaded from the table below.
-After unzipping, those maps can be directly uploaded to genome browsers (e.g IGV) for visualization. Please note that our state annotations are based on hg19 reference genome.
+Our multi-scale annotations can be freely downloaded from the table below. After unzipping, those maps can be directly uploaded to genome browsers (e.g IGV) for visualization. Please note that our state annotations are based on hg19 reference genome.
 
 To see full meta information about each reference epigenome, please visit [here](https://docs.google.com/spreadsheets/d/1yikGx4MsO9Ei36b64yOy9Vb6oPC5IBGlFbYEt-N6gOM/edit#gid=15).
 
